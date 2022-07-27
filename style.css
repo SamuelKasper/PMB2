@@ -1,0 +1,14 @@
+#gameArea{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#background{
+    width: 450px;
+    min-height: 800px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+    border-style: solid;
+}
