@@ -9,7 +9,24 @@
 </head>
 <body>
     <div id="gameArea">
-        <div id="background"></div>
+        <div id="background">
+            <div id="playerFeedback">
+                <div id="score">Score: 240</div>
+                <div id="combo">Combo: 65430</div>
+            </div>
+            <div id="buttonArea">
+                <button id="btn1" class="buttonStyle">D</button>
+                <button id="btn2" class="buttonStyle">F</button>
+                <button id="btn3" class="buttonStyle">J</button>
+                <button id="btn4" class="buttonStyle">K</button>
+            </div>
+            <div id="gameControll">
+                <button id="start" onclick="startGame()">Start</button>
+            </div>
+        </div>
     </div>
+
+    <script src="keyController.js"></script>
+    <script src="noteMapping.js"></script>
 </body>
 </html>
