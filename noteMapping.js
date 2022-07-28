@@ -4,7 +4,7 @@ let score = 0;
 
 function startGame() {
     //config variables
-    let noteAmount = 75;
+    let noteAmount = 60;
     // must both be multiplied with 795 a multiple of 400ms.
     let delayBetweenNotes = 800;
     //possible values: 1.0062, 1.51, 2.0126
