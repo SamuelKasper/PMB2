@@ -50,23 +50,32 @@
     font-size: 20px;
 }
 
+#score{
+    z-index: 3;
+}
+
+#combo{
+    z-index: 3;
+}
+
 /* Notes */
 .noteStyle{
-    width: 25%;
+    width: 112px;
     height: 15px;
     background-color: red;
-    position: relative;
+    position: absolute;
     top: 20px;
+    z-index: 2;
 }
 
 .noteF{
-    margin-left: 25%;
+    margin-left: 112px;
 }
 
 .noteJ{
-    margin-left: 50%;
+    margin-left: 225px;
 }
 
 .noteK{
-    margin-left: 75%;
+    margin-left: 338px;
 }
